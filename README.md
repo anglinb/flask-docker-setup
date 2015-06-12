@@ -4,6 +4,8 @@ Simple flask &amp; docker setup.
 ##Notes
 For jenkins you can build a junit-type test file by specifying the `--junitxml=file.xml` flag.
 
+https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin
+
 ##Jenkins Setup
 	docker rm dok 2>/dev/null || true
 	docker build -t dok .
